@@ -3,23 +3,23 @@
     <ItemGroup>
 
 <!-- Windows -->
-        <None Include="$(MSBuildThisFileDirectory)../amd64/libzmq.dll">
+        <Content Include="$(MSBuildThisFileDirectory)../amd64/libzmq.dll">
             <Link>amd64/libzmq.dll</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="$(MSBuildThisFileDirectory)../amd64/libsodium.dll">
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)../amd64/libsodium.dll">
             <Link>amd64/libsodium.dll</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
+        </Content>
 
-        <None Include="$(MSBuildThisFileDirectory)../i386/libzmq.dll">
+        <Content Include="$(MSBuildThisFileDirectory)../i386/libzmq.dll">
             <Link>i386/libzmq.dll</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Include="$(MSBuildThisFileDirectory)../i386/libsodium.dll">
+        </Content>
+        <Content Include="$(MSBuildThisFileDirectory)../i386/libsodium.dll">
             <Link>i386/libsodium.dll</Link>
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
+        </Content>
 
 <!-- Linux -->
 
